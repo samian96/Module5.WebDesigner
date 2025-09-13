@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
         <header>
@@ -26,7 +27,34 @@
                 </li>
             </ul>
         </nav>
-        <h1>Samuel Iannazzo's Blog</h1>
+        <h1>About Me</h1>
     </header>
+    <main>
+        <h2>One of My Favorite things are Birds</h2>
+        <div class="feature" id="second">
+            <h3>These are some videos of my pet birds</h3>
+            <p>The two parakeets I own are named Captain and beaky. Captain is the blue one and Beaky is the green on.</p>
+            <!--The 'controls' attribute adds video controls, like play, pause, and volume-->
+            <video width="320" height="240" controls>
+                 <!--Source for the video file-->
+                <!--The 'src' attribute specifies the path to the video file-->
+                <source src="media/parakeets.mp4" type="video/mp4">
+                 <!--Fallback content in case the video isn't supported-->
+                Your browser does not support the video element.
+            </video>
+        </div>
+        <div id="first">
+            <p>Here is a video of my cockatiel named Uno.</p>
+            <!--The 'controls' attribute adds video controls, like play, pause, and volume-->
+            <video width="320" height="240" controls>
+                 <!--Source for the video file-->
+                <!--The 'src' attribute specifies the path to the video file-->
+                <source src="media/cockatiel.mp4" type="video/mp4">
+                 <!--Fallback content in case the video isn't supported-->
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </main>
+    <footer> <p>&copy;Samuel Iannazzo | <a href="https://github.com/samian96">github.com/samian96</a></p></footer>
 </body>
 </html>
