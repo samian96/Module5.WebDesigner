@@ -1,22 +1,22 @@
-#first {
-    font-family: Georgia, 'Times New Roman', Times, serif; /*changes font family*/
-     background-color: #a7adfd; /*light gold background color*/
-     border: 2px;
-    border-color: #9377f7; /*gold border color*/;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*adding a shadow*/
-}
-#second {
-    font-family: Georgia, 'Times New Roman', Times, serif; /*changes font family*/
-    color: #313131;
-     background-color: #a7adfd; /*light gold background color*/
-    border-color: #9377f7; /*gold border color*/;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*adding a shadow*/
-}
 html {
     background-color: rgb(228, 228, 228);
 }
 body, h1, h2, p, ul, li, a {
     margin: 0;/*Removing default margin*/
     padding: 0; /*removing default padding*/
+    color: #3d3a46;
+    border: #313131;
+}
+#first {
+        border: 2px solid #813981; /*Grayish-blue*/
+    padding: 20px;/*adding some space inside the card*/
+    margin: 20px; /*adding some space outside the card*/
+    background-color: #d7b3db; /*light gray*/
+}
+#second {
+        border: 2px solid #813981; /*Grayish-blue*/
+    padding: 20px;/*adding some space inside the card*/
+    margin: 20px; /*adding some space outside the card*/
+    background-color: #d7b3db; /*light gray*/
 }
 
