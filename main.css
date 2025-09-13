@@ -1,10 +1,9 @@
 html {
     background-color: rgb(228, 228, 228);
 }
-body, h1, h2, p, ul, li, a {
- margin: 0;/*Removing default margin*/
-    padding: 0; /*removing default padding*/
-    font-family: Arial, Helvetica, sans-serif; /*setting the default font */
+h1, p, li, main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2c3e50;
 }
 #first {
     text-align: center;
@@ -14,7 +13,7 @@ body, h1, h2, p, ul, li, a {
     background-color: #d7b3db; /*light purple*/
 }
 #second {
-        border: 2px solid #813981; /*dark purple*/
+    border: 2px solid #813981; /*dark purple*/
     padding: 20px;/*adding some space inside the card*/
     margin: 20px; /*adding some space outside the card*/
     background-color: #d7b3db; /*light purple*/
@@ -24,4 +23,28 @@ body, h1, h2, p, ul, li, a {
     text-align: center;
     margin-bottom: 10px; /*adding some space below the heading*/
     color: #2c3e50; /*deep blue text color*/
+}
+input {
+    padding: 5px 10px; /*adding some space inside the input*/
+    border: none; /*removing the border*/
+    color: #2c3e50;
+    background-color: #f2d1ff; /*light gray background color*/
+    cursor: pointer; /*changing the cursor to a pointer*/
+    transition: all 0.3 ease; /*adding a transition*/
+}
+/*condition styling for the hover state*/
+input:hover {
+    background-color: rgb(210, 138, 212); /*purple background color*/
+}
+div {
+        border: 2px solid #813981; /*dark purple*/
+    padding: 20px;/*adding some space inside the card*/
+    margin: 20px; /*adding some space outside the card*/
+    background-color: #d7b3db; /*light purple*/
+}
+main {
+            border: 2px solid #2c3e50; /*dark purple*/
+    padding: 20px;/*adding some space inside the card*/
+    margin: 20px; /*adding some space outside the card*/
+    background-color:#ddcdda; /*light purple*/
 }

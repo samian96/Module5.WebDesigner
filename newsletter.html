@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NewsLetter</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
         <header>
@@ -26,9 +27,75 @@
                 </li>
             </ul>
         </nav>
-        <h1>Samuel Iannazzo's Blog</h1>
+        <h1>Sign Up for Updates on my Blog</h1>
     </header>
-    <main></main>
+    <main>
+        <div>
+            <form action="submit" method="post">
+
+              <!-- Label and text input field-->
+             <label for="username">Username:</label>
+             <input type="text" id="username" name="username" placeholder="Enter your username">
+
+             <br> <!-- adds a line break-->
+
+             <!--Label and password input field-->
+             <label for="password">Password:</label>
+             <input type="password" id="password" name="password" placeholder="Enter your password">
+
+             <br>
+
+             <!-- Label and email input field-->
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="example@example.com">
+
+              <br>
+
+              <!-- Label and number input field-->
+               <label for="age">Age:</label>
+               <input type="number" id="age" name="age" min="1" max="100">
+
+               <br>
+
+                               <!--Date input for selecting a date-->
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+
+                <br>
+
+               <!--Radio buttons for gender selection-->
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+
+
+                <br>
+
+                <!--Dropdown select for country selection-->
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <!--...other options...-->
+                </select>
+
+                <br>
+
+                <!--Checkbox for newsletter subscription-->
+                <label for="subscription">Subscribe to newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+                <br>
+
+                <!--Reset button to reset the form fields-->
+                <input type="reset" value="reset">
+
+                <input type="Submit" value="submit">
+        </form>
+    </div>
+    </main>
     <footer> <p>&copy;Samuel Iannazzo | <a href="https://github.com/samian96">github.com/samian96</a></p></footer>
 </body>
 </html>
