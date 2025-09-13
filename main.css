@@ -48,3 +48,26 @@ main {
     margin: 20px; /*adding some space outside the card*/
     background-color:#ddcdda; /*light purple*/
 }
+/*Styling the link in its normal state*/
+a {
+    display: inline-block; /*making the link a clock element*/
+    color: #8d8d8d; /*bright blue text color*/
+    text-decoration: none; /*removing the underline*/
+    transition: all 0.3 ease; /*adding a transition*/
+}
+a:hover {
+    color: #ce0cff;
+}
+button {
+    /*Styling the button*/
+    padding: 5px 10px; /*adding some space inside the button*/
+    border: none; /*removing the border*/
+    background-color: #2e2e2e; /*light gray background color*/
+    cursor: pointer; /*changing the cursor to a pointer*/
+    transition: all 0.3 ease; /*adding a transition*/
+}
+/*condition styling for the hover state*/
+button:hover {
+    background-color: rgb(251, 131, 255); /*red background color*/
+}
+
