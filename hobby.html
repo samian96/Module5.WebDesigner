@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        html {
+            background-color: rgb(228, 228, 228);
+            color: #333333; /*dark grey text*/
+        }
+        body {
+    border: 2px solid #813981; /*dark purple*/
+    padding: 5px;/*adding some space inside the card*/
+    margin: 5px; /*adding some space outside the card*/
+    background-color: #d7b3db; /*light purple*/
+        }
+        section {
+            padding: 25px;/*adding some space inside the card*/
+            margin: 20px; /*adding some space outside the card*/
+        }
+        div {
+                border: 2px solid #505050; /*dark grey*/
+    padding: 5px;/*adding some space inside the card*/
+    margin: 5px; /*adding some space outside the card*/
+    background-color: #c9c9c9; /*light grey*/
+        }
+    </style>
 </head>
 <body>
         <header>
@@ -28,5 +50,33 @@
         </nav>
         <h1>Samuel Iannazzo's Blog</h1>
     </header>
+    <main>
+        <div>
+                    <!--Links to different areas within the same page using id element-->
+            <ul>
+                <li><a href="#cruiser">My Daily Commuter</a></li>
+                <li><a href="#ninja">My Weekend Bike</a></li>
+         </ul>
+        </div>
+        <section>
+            <div id="cruiser">
+                <h2>One of my main hobbies is working on my motorcycles as well as going for weekend rides.</h2>
+                <img src="images/cruiser.jpeg" alt="Picture of a red cruiser motorcycle" width="500" height="600"> 
+                <p>This is my daily commuter, a 2007 Suzuki boulevard S40. It is a 650cc single cylinder cruiser style bike, might not
+                    be the fastest bike but it gets the job done. Very beginner friendly, as well as reliable and easy to maintain mechanically.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div id="ninja">
+                <h2>This is my weekend bike/project bike.</h2>
+                <img src="images/ninja.jpeg" alt="Picture of a blue sport motorcycle"  width="500" height="600">
+                <p>It is a 2004 Kawasaki Ninja 500r. Most of the time this bike is spent in the garage trying to fix all the problems.
+                    Occassionally I do get to take it out and ride for a bit, but with any older bike that has been wrecked problems show up.
+                    The carburator has been rebuilt as well as the top end of the engine.
+                </p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -2,21 +2,21 @@ html {
     background-color: rgb(228, 228, 228);
 }
 body, h1, h2, p, ul, li, a {
-    margin: 0;/*Removing default margin*/
+ margin: 0;/*Removing default margin*/
     padding: 0; /*removing default padding*/
-    color: #3d3a46;
-    border: #313131;
+    font-family: Arial, Helvetica, sans-serif; /*setting the default font */
 }
 #first {
-        border: 2px solid #813981; /*Grayish-blue*/
+    text-align: center;
+    border: 2px solid #813981; /*dark purple*/
     padding: 20px;/*adding some space inside the card*/
     margin: 20px; /*adding some space outside the card*/
-    background-color: #d7b3db; /*light gray*/
+    background-color: #d7b3db; /*light purple*/
 }
 #second {
-        border: 2px solid #813981; /*Grayish-blue*/
+        border: 2px solid #813981; /*dark purple*/
     padding: 20px;/*adding some space inside the card*/
     margin: 20px; /*adding some space outside the card*/
-    background-color: #d7b3db; /*light gray*/
+    background-color: #d7b3db; /*light purple*/
 }
 
